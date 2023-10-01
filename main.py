@@ -5,8 +5,6 @@ from PIL import Image, ImageDraw
 width = 80
 height = 40
 
-#Комментарий, судьба которого, быть уничтоженным 
-
 # Создаем новое изображение
 image = Image.new("RGB", (width, height), "white")
 draw = ImageDraw.Draw(image)
